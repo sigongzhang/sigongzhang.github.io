@@ -27,6 +27,7 @@ Table of Content:
 07/ about
 08/ team
 09/ project 
+/ Portfolio
 10/ price 
 11/ team 
 12/ blog 
@@ -45,9 +46,10 @@ Table of Content:
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
-  list-style: none;
+  list-style: circle;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  padding-left: 40px;}
 
 a {
   text-decoration: none;
@@ -80,11 +82,11 @@ button:focus {
 
 .p_60 {
   padding-top: 60px;
-  padding-bottom: 60px; }
+  padding-bottom: 30px; }
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 60px; }
 
 .pad_top {
   padding-top: 120px; }
@@ -326,10 +328,10 @@ button:focus {
         text-transform: uppercase;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content p {
-        color: #777777;
-        font-family: "Roboto", sans-serif;
+        color: #222222;
+        font-family: "Open Sans", sans-serif;
         max-width: 680px;
-        font-size: 14px;
+        font-size: 20px;
         line-height: 26px;
         margin: 0px auto 45px; }
       .home_banner_area .banner_inner .banner_content .banner_map_img {
@@ -638,7 +640,8 @@ button:focus {
       color: #8490ff; }
 
 .blog_post img {
-  max-width: 100%; }
+  max-width: 100%; 
+  margin-bottom: 1 cm}
 
 .blog_details {
   padding-top: 20px; }
@@ -1519,7 +1522,7 @@ button:focus {
   .element-wrap {
     margin-top: 30px; } }
 b, sup, sub, u, del {
-  color: #f8b600; }
+  color: #222222; }
 
 h1 {
   font-size: 36px; }
@@ -2634,61 +2637,53 @@ h6 {
 /*----------------------------------------------------*/
 /* Team Area css
 ============================================================================================ */
-.team_area {
-  background: #f9f9ff; }
+section#team {
+	color: #222222;
+	background:#fff;
+}
+section#team .align {
+	font-size: 6em;
+	text-align: center;
+}
+#team h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+#team {
+	padding-top: 4.75em;
+}
+#team {
+	padding-bottom: 0;
+}
 
-.team_inner {
-  margin-bottom: -50px; }
 
-.team_item {
-  position: relative;
-  text-align: center;
-  margin-bottom: 50px; }
-  .team_item .team_img {
-    position: relative;
-    overflow: hidden; }
-    .team_item .team_img .hover {
-      position: absolute;
-      left: 0px;
-      width: 100%;
-      bottom: -70px;
-      text-align: center;
-      transition: all 300ms linear 0s;
-      background: #fff; }
-      .team_item .team_img .hover a {
-        font-size: 14px;
-        color: #dddddd;
-        margin-right: 20px;
-        line-height: 50px; }
-        .team_item .team_img .hover a:last-child {
-          margin-right: 0px; }
-        .team_item .team_img .hover a:hover i:before {
-          background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent; }
-  .team_item .team_name {
-    text-align: center;
-    margin-top: 20px; }
-    .team_item .team_name h4 {
-      margin-bottom: 5px;
-      color: #222222;
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size: 20px;
-      transition: all 300ms linear 0s; }
-    .team_item .team_name p {
-      font-size: 14px;
-      font-family: "Roboto", sans-serif;
-      color: #777777;
-      margin-bottom: 0px; }
-  .team_item:hover .team_img:before {
-    opacity: 1; }
-  .team_item:hover .team_img .hover {
-    bottom: 0px; }
-  .team_item:hover .team_name h4 {
-    background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+#team h3 {
+	font-size: 26px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+}
+#team h3, .job-position {
+	text-align: center;
+}
+#team .featurette {
+	text-align: center;
+	font-size: 21px;
+}
+#team h2.featurette-heading {
+	margin-bottom: 24px;
+}
+.teamalign {
+	text-align:center
+}
+.team-thumb {
+	margin-top: 26px;
+	text-align:center;
+}
+.job-position {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: .46155em;
+}
 
 /* End Team Area css
 ============================================================================================ */
@@ -2900,6 +2895,16 @@ h6 {
 ============================================================================================ */
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
+
+  .portfolio_details_inner h4{
+    color: #222222;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+
+    .portfolio_details_inner img{
+      margin-bottom: 30px; }
+
 .portfolio_details_inner p {
   margin-bottom: 30px;
   font-size: 20px; }
